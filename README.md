@@ -25,7 +25,7 @@ To interface an MQ-3 gas sensor with the STM32 microcontroller and implement thr
 
 MQ-3 Sensor → ADC → STM32 → Threshold Decision → Motor / LED Control
 
-During normal conditions, the motor remains running and the green LED indicates safe operation. When the vapor concentration exceeds the predefined threshold, the STM32 stops the motor, turns off the green LED, and activates the red LED as a warning. :contentReference[oaicite:1]{index=1}
+During normal conditions, the motor remains running and the green LED indicates safe operation. When the vapor concentration exceeds the predefined threshold, the STM32 stops the motor, turns off the green LED, and activates the red LED as a warning.
 
 ## Technologies Used
 
